@@ -1,0 +1,12 @@
+Place your trained model files here after downloading from Kaggle.
+
+Required files:
+- lstm_autoencoder.pt
+- isolation_forest.pkl
+- normalizer.npz
+- scaler.pkl
+- combined_threshold.npy
+- lstm_norm.npy
+- if_norm.npy
+
+See README.md for full instructions.
