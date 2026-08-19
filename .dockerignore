@@ -1,0 +1,11 @@
+.git
+.venv
+__pycache__
+*.pyc
+app/static/uploads/*
+app/static/results/*
+!app/static/uploads/.gitkeep
+!app/static/results/.gitkeep
+notebooks
+notebooka3024a5a31.ipynb
+traffic_anomaly_output.zip
