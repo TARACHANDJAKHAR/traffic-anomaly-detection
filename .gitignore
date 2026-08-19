@@ -2,10 +2,6 @@
 __pycache__
 *.pyc
 .env
-app/static/uploads/*
-app/static/results/*
-!app/static/uploads/.gitkeep
-!app/static/results/.gitkeep
 traffic_anomaly_output.zip
 features/
 outputs/

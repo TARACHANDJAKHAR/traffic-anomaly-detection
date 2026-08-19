@@ -1,3 +1,12 @@
+---
+title: TrafficSense Anomaly Detection
+emoji: 🚦
+colorFrom: blue
+colorTo: green
+sdk: docker
+pinned: false
+---
+
 <div align="center">
   <h1>🚦 TrafficSense — Traffic Anomaly Detection</h1>
   <p>
