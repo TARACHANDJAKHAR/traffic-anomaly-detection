@@ -18,11 +18,16 @@ COPY app/ ./app/
 COPY models/ ./models/
 COPY yolov8n.pt .
 
-# Expose port (will be overridden by $PORT env var)
+# Create a non-root user and grant permissions
+RUN useradd -m -u 1000 user
+RUN chown -R user:user /app
+USER user
+
+# Expose port (Render overrides this with $PORT)
 EXPOSE 5000
 
 # Set environment variables
 ENV PYTHONUNBUFFERED=1
 
-# Run Gunicorn
+# Run Gunicorn binding to Render's dynamic port
 CMD gunicorn -w 1 --timeout 120 -b 0.0.0.0:$PORT app.app:app
