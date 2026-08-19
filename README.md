@@ -1,17 +1,10 @@
----
-title: TrafficSense Anomaly Detection
-emoji: 🚦
-colorFrom: blue
-colorTo: green
-sdk: docker
-pinned: false
----
-
 <div align="center">
   <h1>🚦 TrafficSense — Traffic Anomaly Detection</h1>
   <p>
     <b>An experimental computer vision pipeline for identifying anomalous traffic behavior.</b>
   </p>
+  
+  [![Live Demo](https://img.shields.io/badge/Live_Demo-traffic--anomaly--detection.onrender.com-success?style=for-the-badge&logo=render)](https://traffic-anomaly-detection.onrender.com)
 </div>
 
 TrafficSense is a Flask-based computer vision research and demo system designed to analyze traffic scenes and identify potentially anomalous vehicle behavior. By decoupling spatial object detection from temporal trajectory analysis, the system identifies unusual movements—such as sudden braking, wrong-way driving, or erratic swerving—using a combination of deep learning and statistical methods.
